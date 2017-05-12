@@ -1,0 +1,12 @@
+# kata
+A collection of simple C/C++ exercises.
+
+## Requirements (proven environment)
+* AppleClang 7.3.0 (Xcode 7.3)
+* cmake 3.5.1
+
+## How to compile and run *hello*
+
+    cmake kata/hello
+    make
+    hello
