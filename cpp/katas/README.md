@@ -7,6 +7,6 @@ A collection of simple C/C++ exercises.
 
 ## How to compile and run *hello*
 
-    cmake kata/hello
+    cmake katas/hello
     make
-    hello
+    ./hello
