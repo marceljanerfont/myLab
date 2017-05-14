@@ -7,6 +7,8 @@ A collection of simple C/C++ exercises.
 
 ## How to compile and run *hello*
 
-    cmake katas/hello
+    
+    cd /path/to/my/build/folder
+    cmake /path/to/my/source/folder
     make
-    ./hello
+    ./target
