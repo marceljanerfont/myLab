@@ -22,6 +22,9 @@ A collection of simple C/C++ exercises.
 
         cd gtest
         git clone https://github.com/google/googletest.git
+       
+* build googletest
+
         cd googletest
         mkdir install
         cd install
@@ -30,7 +33,7 @@ A collection of simple C/C++ exercises.
         sudo make install
 
 * in Mac the library would be located at: /usr/local/include/gtest
-* Do the same for **googlemoc**
+* Do the same to build **googlemoc**
 
 ### Install  CGAL libraries:
 * install libs from MacPorts
