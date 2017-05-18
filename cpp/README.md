@@ -1,11 +1,12 @@
-# kata
+# katas
 A collection of simple C/C++ exercises.
 
-## How to compile and run *hello*
+## How to compile and run *katas*
 
-    cmake kata/hello
+    cd /path/to/my/build/folder
+    cmake /path/to/my/source/folder
     make
-    hello
+    ./target
 
 
 ## Dev env set up
