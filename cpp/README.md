@@ -29,6 +29,9 @@ A collection of simple C/C++ exercises.
         make
         sudo make install
 
+* in Mac the library would be located at: /usr/local/include/gtest
+* Do the same for **googlemoc**
+
 ### Install  CGAL libraries:
 * install libs from MacPorts
 
