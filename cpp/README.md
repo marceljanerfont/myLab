@@ -20,20 +20,20 @@ A collection of simple C/C++ exercises.
 ### Install googletest libraries:
 * go to a folder where to download de source code. eg: gtest
 
-    cd gtest
-    git clone https://github.com/google/googletest.git
-    cd googletest
-    mkdir install
-    cd install
-    cmake -DCMAKE_CXX_COMPILER="c++" -DCMAKE_CXX_FLAGS="-std=c++11 -stdlib=libc++" ../ 
-    make
-    sudo make install
+        cd gtest
+        git clone https://github.com/google/googletest.git
+        cd googletest
+        mkdir install
+        cd install
+        cmake -DCMAKE_CXX_COMPILER="c++" -DCMAKE_CXX_FLAGS="-std=c++11 -stdlib=libc++" ../ 
+        make
+        sudo make install
 
 ### Install  CGAL libraries:
 * install libs from MacPorts
 
-    sudo port install cgal
-    sudo port install cgal +qt5 +universal +demos # with the demos
+        sudo port install cgal
+        sudo port install cgal +qt5 +universal +demos # with the demos
 
 * download CGAL source from https://github.com/CGAL/cgal/releases, and uncompress it to: /opt/local/CGAL-4.7
 * open cmake-gui 3.5 (http://www.cmake.org/) use Unix Makefiles
