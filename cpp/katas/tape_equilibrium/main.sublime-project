@@ -1,0 +1,24 @@
+{
+	"build_systems":
+	[
+		{
+			"file_regex": "(.+[^:]):(\\d+):(\\d+): (?:fatal )?((?:error|warning): .+)$",
+			"name": "CMake and Run",
+			"working_dir": "${project_path}",
+            "osx":
+            {
+                "shell_cmd": "printf 'building for osx:\n' && if test -d build; then rm -r build; fi && mkdir build && cd build && cmake .. && make && ./src/main"
+            },
+            "windows":
+            {
+                "shell_cmd": "printf 'building for windows:\nTODO'"
+            }
+		}
+	],
+	"folders":
+	[
+		{
+			"path": "."
+		}
+	]
+}
