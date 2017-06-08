@@ -4,6 +4,9 @@
 		{
 			"file_regex": "(.+[^:]):(\\d+):(\\d+): (?:fatal )?((?:error|warning): .+)$",
 			"name": "CMake and Run",
+            // Recognize ANSI colors in the output, it is needed this package: ANSIescape
+            "target": "ansi_color_build",
+            "syntax": "Packages/ANSIescape/ANSI.tmLanguage",
 			"working_dir": "${project_path}",
             "osx":
             {
