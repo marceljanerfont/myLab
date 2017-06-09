@@ -1,5 +1,6 @@
 # katas
 A collection of simple C/C++ exercises.
+Problems: https://codility.com/programmers/lessons/
 
 ## How to compile and run *katas*
 
