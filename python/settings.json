@@ -9,5 +9,6 @@
         "params"
     ],
     "workbench.colorTheme": "Monokai",
-     "editor.fontSize": 13,
+    "editor.fontSize": 12,
+    "editor.fontFamily": "Consolas, 'Courier New', monospace",
 }
